@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/wallpaper"
+    android:layout_height="match_parent"
+    tools:context=".PourActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="POUR MORE"
+        android:textStyle="bold"
+        android:textSize="28sp"
+        android:textAlignment="center"
+        android:background="#5F71CC"/>
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:text="Today is Saturday,13th July 2019.Input Your Daily Sales Acount"
+        android:textSize="26sp"
+        android:padding="5dp"
+        android:textColor="#000"
+        android:textAlignment="center"
+        android:background="@drawable/button"/>
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:background="@drawable/button"
+        android:layout_marginTop="30sp"
+        android:text="Count:"
+        android:id="@+id/count"
+        android:textSize="26sp"
+        android:paddingLeft="10sp"
+        android:inputType="number"
+        android:drawableStart="@drawable/pepsi"/>
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:id="@+id/sales"
+        android:background="@drawable/button"
+        android:layout_marginTop="20sp"
+        android:text="Sales:Rs"
+        android:textSize="26sp"
+        android:paddingLeft="10sp"
+        android:inputType="number"
+        />
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:background="@drawable/back"
+        android:text="Submit"
+        android:id="@+id/submit"
+        android:textSize="25sp"
+        android:layout_marginTop="20dp"
+
+        android:textColor="#C9A517"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go back to main menu"
+        android:layout_marginTop="10dp"
+        android:id="@+id/menu"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:textSize="22sp"
+        android:textColor="#98B172"/>
+
+</LinearLayout>

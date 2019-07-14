@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/wallpaper"
+    tools:context=".MainActivity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:src="@drawable/subway2"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="35sp"
+        android:layout_marginLeft="75dp"
+        android:textColor="#fff"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:background="#A11B5E20"
+        android:text="LEARN MORE\n POUR MORE\nEARN MORE!"/>
+    <Button
+        android:layout_width="200sp"
+        android:layout_height="50sp"
+        android:id="@+id/btn"
+        android:onClick="onclick"
+
+        android:background="@drawable/button"     android:layout_marginTop="80sp"
+        android:text="Sign up"
+        android:layout_marginLeft="85sp"/>
+    <Button
+        android:layout_width="200sp"
+        android:layout_height="50sp"
+        android:id="@+id/btn2"
+        android:onClick="onclick"
+        android:background="@drawable/button"
+
+        android:layout_marginTop="20sp"
+        android:text="Log in"
+        android:layout_marginLeft="85sp"/>
+
+
+
+
+
+</LinearLayout>

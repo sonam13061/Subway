@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/wallpaper"
+    tools:context=".EarnActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EARN MORE"
+        android:textStyle="bold"
+        android:textSize="28sp"
+        android:textAlignment="center"
+        android:background="#5F71CC"/>
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:text="LEADERSHIP BOARD"
+        android:drawableStart="@drawable/trophy"
+        android:textSize="28sp"
+        android:padding="5dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="#000"
+        android:textAlignment="center"
+        android:background="@drawable/button"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:padding="10dp"
+            android:textColor="#2037B1"
+            android:text="RANK   STORE NAME"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#E06C47"
+            android:textSize="25sp"
+            android:padding="10dp"
+            android:text=" 1.          VASANT VIHAR\n 2.          PUNJABI BAGH\n 3.          GREATER KAILASH\n 4.           SECTOR 18 NOIDA\n 5.          RAJOURI GARDEN\n "/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#9E1C1C"
+            android:layout_marginTop="30dp"
+            android:textSize="25sp"
+            android:padding="10dp"
+            android:text=" 37.       YOUR OUTLET"/>
+    </LinearLayout>
+
+</LinearLayout>

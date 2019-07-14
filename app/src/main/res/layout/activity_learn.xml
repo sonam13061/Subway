@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/wallpaper"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".LearnActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LEARN MORE"
+        android:textStyle="bold"
+        android:textSize="28sp"
+        android:textAlignment="center"
+        android:background="#5F71CC"/>
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:text="Q. When a customer orders for a sub/salad,what question should you probe the customer?"
+        android:textSize="24sp"
+        android:padding="5dp"
+        android:textColor="#000"
+        android:textAlignment="center"
+        android:background="@drawable/button"/>
+    <Button
+
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:id="@+id/op1"
+        android:layout_marginTop="20sp"
+        android:text="1.Sir ,Would you like to add any beverages.Should I convert your order into a Meal Plan."
+        android:textAllCaps="false"
+        android:textSize="24sp"
+        android:padding="5dp"
+        android:textColor="#000"
+        android:textAlignment="center"
+        android:background="@drawable/button"/>
+    <Button
+        android:id="@+id/op2"
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20sp"
+        android:text="2. Say Thank You,and should not ask any further question"
+        android:textAllCaps="false"
+        android:textSize="24sp"
+        android:padding="5dp"
+        android:textColor="#000"
+        android:textAlignment="center"
+        android:background="@drawable/button"/>
+    <Button
+        android:id="@+id/op3"
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20sp"
+        android:text="3. Wait for the customers to ask beverages"
+        android:textAllCaps="false"
+        android:textSize="24sp"
+        android:padding="5dp"
+        android:textColor="#000"
+        android:textAlignment="center"
+        android:background="@drawable/button"/>
+
+
+
+
+</LinearLayout>

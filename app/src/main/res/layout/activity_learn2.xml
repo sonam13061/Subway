@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/wallpaper"
+    tools:context=".Learn2Activity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LEARN MORE"
+        android:textStyle="bold"
+        android:textSize="28sp"
+        android:textAlignment="center"
+        android:background="#5F71CC"/>
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:text="Q. When a customer refuses to order any carbonated drinks,what else should you offer from beverages?"
+        android:textSize="24sp"
+        android:padding="5dp"
+        android:textColor="#000"
+        android:textAlignment="center"
+        android:background="@drawable/button"/>
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:id="@+id/op1"
+        android:layout_marginTop="20sp"
+        android:text="1.Nothing"
+        android:textAllCaps="false"
+        android:textSize="24sp"
+        android:padding="5dp"
+        android:textColor="#000"
+        android:textAlignment="center"
+        android:background="@drawable/button"/>
+    <Button
+        android:id="@+id/op2"
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20sp"
+        android:text="2. Lipton Ice tea"
+        android:textAllCaps="false"
+        android:textSize="24sp"
+        android:padding="5dp"
+        android:textColor="#000"
+        android:textAlignment="center"
+        android:background="@drawable/button"/>
+    <Button
+        android:id="@+id/op3"
+        android:layout_width="350dp"
+
+        android:layout_height="100dp"
+        android:layout_marginTop="20sp"
+        android:text="3. Water"
+        android:textAllCaps="false"
+        android:textSize="24sp"
+        android:padding="5dp"
+        android:textColor="#000"
+        android:textAlignment="center"
+        android:background="@drawable/button"/>
+
+
+</LinearLayout>
